@@ -1,0 +1,39 @@
+.class public final Ly5/t;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Ly5/t;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    new-instance v0, Ly5/t;
+
+    invoke-direct {v0}, Ly5/t;-><init>()V
+
+    sput-object v0, Ly5/t;->a:Ly5/t;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .registers 2
+
+    const-string v0, "kotlin.Unit"
+
+    return-object v0
+.end method
